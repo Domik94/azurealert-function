@@ -79,6 +79,6 @@ test("Alertcreate-ServiceHealth-Fired2", async () => {
 タイプ: Incident
 トラッキング ID: 8V_4-FC0
 影響サービス[リージョン]: Log Analytics[Australia Central/Australia East/Australia Southeast/Canada Central/Central India/East Asia/East US/East US 2/France Central/Japan East/Korea Central/North Central US/North Europe/South Central US/UK South/West Central US/West US/West US 2]
-`;
+`;https://search4faces.com
     expect(message).toEqual(expect.stringContaining(testmessage));
 });
